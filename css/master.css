@@ -423,12 +423,7 @@ textarea {
 /*-------------------------------------*/
 
 body {
-  background: url('/jwo-dance.gif');
-  background-size: cover;
+  background: url('/jwo-dance.gif') center center fixed no-repeat;
+  background-size: contain;
 }
 
-@media screen and (min-width: 800px) {
-  body {
-    background-size: 50%;
-  }
-}
